@@ -1,0 +1,170 @@
+html{
+    scroll-behavior: smooth;
+    
+}
+body{
+    background: linear-gradient(100deg, #050816 50%, #1F6E8C);
+    color: white;
+    font-family: arial;
+}
+
+nav a{
+    
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 20px;
+}
+nav a:hover{
+    color: #ccc;
+}
+nav button{
+    border-radius: 10px;
+    background: linear-gradient(100deg, #050816 50%, #1F6E8C);
+    font-family: arial;
+    font-weight: bold;
+    height: 40px;
+    width: 100px;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+
+}
+nav{
+    margin-left: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero-section button{
+    height: 60px;
+    width: 140px;
+    border-radius: 10px;
+    background: linear-gradient(100deg, #050816 50%, #1F6E8C);
+    color: white;
+    font-weight: 700;
+    margin-right: 15px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: arial;
+}
+.cards{
+    display: flex;
+}
+
+.card-1{
+    border-radius: 5px;
+    height: 150px;
+    width: 250px;
+    margin: 0px 40px;
+    /* box-shadow: 0 0 10px 10px; */
+    text-align: center;
+    padding: 5px;
+
+}
+.card-2{
+    border-radius: 5px;
+    height: 150px;
+    width: 250px;
+    margin: 0px 40px;
+    /* box-shadow: 0 0 10px 10px; */
+    text-align: center;
+    padding: 5px;
+
+}
+.card-3{
+    border-radius: 5px;
+    height: 150px;
+    width: 250px;
+    margin: 0px 40px;
+    /* box-shadow: 0 0 10px 10px; */
+    text-align: center;
+    padding: 5px;
+
+}
+.card-4{
+    border-radius: 5px;
+    height: 150px;
+    width: 260px;
+    margin: 0px 40px;
+    /* box-shadow: 0 0 10px 10px; */
+    text-align: center;
+    padding: 5px;
+}
+
+#cards{
+    display: flex;
+}
+.card1{
+    border-radius: 5px;
+    height: 150px;
+    width: 260px;
+    margin: 0px 40px;
+    /* box-shadow: 0 0 10px 10px; */
+    text-align: center;
+    padding: 5px;
+    
+}
+.card2{
+    border-radius: 5px;
+    height: 150px;
+    width: 280px;
+    margin: 0px 40px;
+    
+    text-align: center;
+    padding: 5px;
+}
+.card3{
+    border-radius: 5px;
+    height: 150px;
+    width: 260px;
+    margin: 0px 40px;
+    
+    text-align: center;
+    padding: 5px;
+}
+.price{
+    display: flex;
+}
+.free{
+    border-radius: 5px;
+    height: 300px;
+    width: 280px;
+    margin: 0px 40px;
+    
+    text-align: center;
+    padding: 5px;
+}
+.pro{
+    border-radius: 5px;
+    height: 300px;
+    width: 280px;
+    margin: 0px 40px;
+    
+    text-align: center;
+    padding: 5px;
+}
+
+.pricing button{
+    height: 60px;
+    width: 120px;
+    border-radius: 10px;
+    background: linear-gradient(100deg, #050816 50%, #1F6E8C);
+    color: white;
+    font-weight: 700;
+    margin: 40px 300px;
+    font-size: 20px;
+}
+.final button{
+    height: 60px;
+    width: 180px;
+    border-radius: 10px;
+    background: linear-gradient(100deg, #050816 50%, #1F6E8C);
+    color: white;
+    font-weight: 700;
+    margin: 10px;
+    font-size: 15px;
+}

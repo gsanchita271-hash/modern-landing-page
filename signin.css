@@ -1,0 +1,79 @@
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(160deg, #050816 50% , #0e7490 50%);
+    height: 100vh;
+    font-family: arial;
+    
+}
+
+
+.card{
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: none;
+    height: 350px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 0 20px;
+}
+
+.input .email{
+    margin: 10px;
+}
+
+.input a{
+    text-align: left;
+}
+.password {
+    width: 290px;
+    margin: auto;
+}
+
+
+.password input[type="password"] {
+    width: 280px;
+    height: 25px;
+   
+}
+.email input[type="email"] {
+    width: 280px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+
+
+.password h6 {
+    text-align: right;
+    margin: 1px 0px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    color:#0e7490;
+}
+
+.password h6:hover{
+    color:#55caea;
+}
+.login button{
+    
+    color: white;
+    height: 35px;
+    width: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 400;
+    margin-top: 20px;
+    background: linear-gradient(100deg, #050816 50%, #1F6E8C);
+
+
+}
+a:hover{
+    color: #fff;
+}
+.login button:hover{
+    background-color: rgb(53, 53, 119);
+}
+
